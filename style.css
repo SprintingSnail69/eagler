@@ -1,0 +1,54 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+  
+  /* Background and Container Styling */
+  body {
+    background: linear-gradient(to bottom, #000, #0d6efd);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container to center content */
+  .container {
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Button Styling */
+  .download-btn {
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #5daefc;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+  }
+  
+  .download-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
